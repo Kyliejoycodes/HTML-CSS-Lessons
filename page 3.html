@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header style="background-color: pink">
+        <h1>Kylie Morgan</h1>
+        <a href="index.html">Home</a>
+        <a href="page 2.html">Page 2</a>
+        <a></a>
+        <hr>
+    </header>
+
+    <main>
+                <!--post send the input data to the php page
+                    the types matter!!!!!-->
+                <form action="action_page.php" method="POST">
+                    <div>
+                    <label for="fname">first name:</label>
+                    <input type="text" id="fname" placeholder="Heyhey" required>
+                    </div>
+                    <br>
+                    <div>
+                    <label for="lname">last name:</label>
+                    <input type="text" id="lname" placeholder="Hihi" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="pass">password:</label>
+                        <input type="password" id="pass" name="pass" maxlength="12" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">email:</label>
+                        <input type="email" id="email" name="email" required placeholder="kjm@kylieiskool.com">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="phone">phone #:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="123 123 1234">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="date">birthday:</label>
+                        <input type="date" id="bdate" name="bdate">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="quantity">quantity:</label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="10" value="1">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="title">title:</label>
+
+                        <label for="Mr.">Mr.</label>
+                        <input type="radio" id="Mr." name="title" value="Mr.">
+                        <label for="Mrs.">Mrs.</label>
+                        <input type="radio" id="Mrs." name="title" value="Mrs.">
+                        <label for="PhD.">PhD.</label>
+                        <input type="radio" id="PhD." name="title" value="PhD.">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="payment">payment:</label>
+                        <select id="payment" name="payment">
+                            <option value="visa">visa</option>
+                            <option value="mastercard">mastercard</option>
+                            <option value="giftcard">gift card</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="subscribe">subscribe:</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="reset">
+                        
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit">
+                    </div>
+    
+                </form>
+
+                <p tag="poverflow">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse alias porro repellat provident recusandae quaerat excepturi iure distinctio? Maiores fugiat et voluptate quas! Veritatis nulla nihil aut maiores architecto delectus.
+                </p>
+        </main>
+
+        <footer style="background-color: pink">
+            <hr>
+            author:Kylie Morgan<br>
+            &copy; 2024 copyright reserved<br>
+            <small><a href="mailto:kjm@gmail.com">kjm@gmail.com</a></small>
+        </footer>
+</body>
+</html>

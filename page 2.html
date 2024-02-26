@@ -1,0 +1,91 @@
+<!-- exlcamation mark and tab generates html code in vs code-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> This is page 2</h1>
+
+            <!--unordered list-->
+            <ul>
+                <li>dough</li>
+                <li>sauce</li>
+                <li>cheese</li>
+                    <ul>
+                        <li>mozzeralla</li>
+                        <li>cheddar</li>
+                        <li>swiss</li>
+                    </ul>
+            </ul>
+    
+            <!--ordered list-->
+            <ol type="A">
+                <li>Wake up</li>
+                <li>Breakfast</li>
+                <li>Shower</li>
+            </ol>
+    
+            <!--description list-->
+            <dl>
+                <dt>HTML</dt>
+                <dd>HTML adds structure to a webpage</dd>
+                <dt>CSS</dt>
+                <dd>CSS adds style to a webpage</dd>
+                <dt>JS</dt>
+                <dd>JS adds functionality to a webpage</dd>
+            </dl>
+    
+            <!--table-->
+            <table bgcolor="grey" width="700">
+                <!--table row-->
+                <tr bgcolor="pink">
+                    <!--table header-->
+                    <th width="100">Monday</th>
+                    <th width="100">Tuesday</th>
+                    <th width="100">Wednesday</th>
+                    <th width="100">Thursday</th>
+                    <th width="100">Friday</th>
+                </tr>
+                <tr bgcolor="purple" align="center">
+                    <!--table data-->
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                    <td>9-5</td>
+                </tr>
+            </table>
+    
+            <p>hello here is some super random words to use for example of how to use span dnd div. <span style="color:antiquewhite">Span allows markup to text or a portion of document.</span></p>
+            <div style="background-color:#444444"> 
+                <p>div is very similar it defines a divison of a document
+                </p>
+                <p>
+                    div is very similar it defines a divison of a document
+                </p>
+            </div>
+    
+            <!--i frame, imbedd wepage into another webpage, disabled for a lot in case of hacking-->
+            <!--<iframe src="https://www.bing.com" width="750" height="500">
+            <iframe style="border:0" src="index.html" width="750" height="750">-->
+
+            <!--buttons-the a tags make it a hyperlink, remove if you want other functionality-->
+            <a href="page 3.html">
+                <button style="background-color:lightpink;color:darkslategray;border-radius:5px">page 3</button>
+            </a>
+
+            <button onclick="doSomething()">Simple JS Function</button>
+            <p id="test">Hello</p>
+
+            <script>
+                function doSomething(){
+                    document.getElementById("test").innerHTML = "Goodbye";
+                }
+            </script>
+
+</body>
+</html>
